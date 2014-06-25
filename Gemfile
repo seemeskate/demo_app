@@ -5,23 +5,26 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.1'
 # Use sqlite3 as the database for Active Record
 group :development do
-	gem 'sqlite3', '1.3.5'
+	gem 'sqlite3', '1.3.9'
 end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-	gem 'sass-rails', '3.2.4'
-	gem 'coffee-rails', '3.2.2'
-	gem 'uglifier', '1.2.3'
+	gem 'sass-rails', '4.0.3'
+	gem 'coffee-rails', '4.0.1'
+	gem 'uglifier', '2.5.1'
+	
 end
-gem 'jquery-rails', '2.0.2'
+
 group :production do
-	gem 'pg', '0.12.2'
+	gem 'pg', '0.17.1'
 end
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
+gem 'jquery-rails', '3.1.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
