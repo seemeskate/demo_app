@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'ruby' '2.0.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
 # Use sqlite3 as the database for Active Record
@@ -13,7 +13,6 @@ group :assets do
 	gem 'sass-rails', '4.0.3'
 	gem 'coffee-rails', '4.0.1'
 	gem 'uglifier', '2.5.1'
-	
 end
 
 group :production do
