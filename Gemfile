@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
 
-gem 'ruby' '2.0.0'
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.1'
+#gem 'ruby' '1.9.3'
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'2
+#gem 'rails', '2.0.0'
 # Use sqlite3 as the database for Active Record
-group :development do
-	gem 'sqlite3', '1.3.9'
-end
+#group :development do
+#	gem 'sqlite3', '1.3.9'
+#end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -15,9 +15,9 @@ group :assets do
 	gem 'uglifier', '2.5.1'
 end
 
-group :production do
-	gem 'pg', '0.17.1'
-end
+
+gem 'pg', '0.17.1'
+
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
